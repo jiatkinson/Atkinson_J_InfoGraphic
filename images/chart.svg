@@ -38,18 +38,18 @@
 	<line class="st0" x1="70.3" y1="17" x2="66.4" y2="17"/>
 </g>
 <g id="Bar_Lines">
-	<rect x="722" y="184" class="st1" width="24" height="160"/>
-	<rect x="664.7" y="186.1" class="st1" width="24" height="157.9"/>
-	<rect x="606.7" y="190.9" class="st1" width="24" height="153.1"/>
-	<rect x="548.7" y="193.4" class="st1" width="24" height="150.6"/>
-	<rect x="491.3" y="220.9" class="st1" width="24" height="123.1"/>
-	<rect x="433.3" y="224.7" class="st1" width="24" height="119.3"/>
-	<rect x="376" y="188.6" class="st1" width="24" height="155.4"/>
-	<rect x="318" y="186.9" class="st1" width="24" height="157.1"/>
-	<rect x="261" y="182.9" class="st1" width="24" height="161.1"/>
-	<rect x="202.3" y="110.3" class="st1" width="24" height="233.7"/>
-	<rect x="144.3" y="182.9" class="st1" width="24" height="161.1"/>
-	<rect x="87" y="59.7" class="st1" width="24" height="284.3"/>
+	<rect id="bar_x5F_12" x="722" y="184" class="st1" width="24" height="160"/>
+	<rect id="bar_x5F_11" x="664.7" y="186.1" class="st1" width="24" height="157.9"/>
+	<rect id="bar_x5F_10" x="606.7" y="190.9" class="st1" width="24" height="153.1"/>
+	<rect id="bar_x5F_9" x="548.7" y="193.4" class="st1" width="24" height="150.6"/>
+	<rect id="bar_x5F_8" x="491.3" y="220.9" class="st1" width="24" height="123.1"/>
+	<rect id="bar_x5F_7" x="433.3" y="224.7" class="st1" width="24" height="119.3"/>
+	<rect id="bar_x5F_6" x="376" y="188.6" class="st1" width="24" height="155.4"/>
+	<rect id="bar_x5F_5" x="318" y="186.9" class="st1" width="24" height="157.1"/>
+	<rect id="bar_x5F_4" x="261" y="182.9" class="st1" width="24" height="161.1"/>
+	<rect id="bar_x5F_3" x="202.3" y="110.3" class="st1" width="24" height="233.7"/>
+	<rect id="bar_x5F_2" x="144.3" y="182.9" class="st1" width="24" height="161.1"/>
+	<rect id="bar_x5F_1" x="87" y="59.7" class="st1" width="24" height="284.3"/>
 </g>
 <g id="Text">
 	<text transform="matrix(1 0 0 1 57.6667 348.4772)" class="st2 st3 st4">0</text>
