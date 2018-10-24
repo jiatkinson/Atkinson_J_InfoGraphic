@@ -1,0 +1,23 @@
+{
+  "name": "atkinson_j_infographic",
+  "version": "1.0.0",
+  "description": "Interactive Infographic",
+  "main": "index.js",
+  "dependencies": {
+    "npm-sass": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiatkinson/Atkinson_J_InfoGraphic.git"
+  },
+  "author": "Jacob Atkinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiatkinson/Atkinson_J_InfoGraphic/issues"
+  },
+  "homepage": "https://github.com/jiatkinson/Atkinson_J_InfoGraphic#readme"
+}
