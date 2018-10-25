@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Interactive Infographic</title>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     
@@ -14,11 +17,14 @@
         </div>
     </header>
 
+<!--SECTION 1-->
     <section class="row">
 
-        <div class="small-12 columns" id="info">
+    <!--Info-->
+
+        <div class="small-12 medium-offset-1 medium-3 columns" id="info">
              <div>
-                 <h2>Host Country</h2>
+                 <h2>Host Country:</h2>
                  <img src="images/russia.svg" alt="Russia Flag" id="russiaFlag">
             </div>
             <div>
@@ -26,7 +32,9 @@
             </div>
         </div>
 
-        <div class="small-12 columns" id="stats">
+    <!--Stats-->
+
+        <div class="small-12 medium-4 columns" id="stats">
             <div>
                 <h2>Matches Played:</h2>
                 <h3>64</h3>
@@ -41,7 +49,9 @@
             </div>
         </div>
 
-        <div class="small-12 columns" id="topFour">
+    <!--Top 4-->
+
+        <div class="small-12 medium-3 columns" id="topFour">
             <div>
                 <ul>
                     <li>1st - <img src="images/france.svg" alt="France Flag" class="topFourFlags"></li>
@@ -54,12 +64,12 @@
     </section>
 
 
-
+<!--SECTION 2-->
     <section>
 
-<!--Country List 1-->
+    <!--Country List 1-->
 
-        <div>
+        <div class="small-6 medium-2 columns">
             <ul class="countryList" id="left_countryList">
                 <li id="argentina" class="sort_sa">Argentina</li>
                 <li id="australia" class="sort_australia">Australia</li>
@@ -80,9 +90,9 @@
             </ul>
         </div>
 
-<!--Continents-->
+    <!--Continents-->
 
-        <div id="continents">
+        <div class="small-12 medium-offset-1 medium-10" id="continents">
 
             <svg version="1.1" id="main_na" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
@@ -92,7 +102,7 @@
                     .st1{fill:#018FD3;stroke:#FFFFFF;stroke-miterlimit:10;}
                     .st2{fill:#FFFFFF;}
                     .st3{font-family:'PetangueDEMO';}
-                    .st4{font-size:45px;}
+                    .st4{font-size:50px;}
                 </style>
 
            <g id="na">
@@ -171,7 +181,7 @@
                     .st1{fill:#018FD3;stroke:#FFFFFF;stroke-miterlimit:10;}
                     .st2{fill:#FFFFFF;}
                     .st3{font-family:'PetangueDEMO';}
-                    .st4{font-size:40px;}
+                    .st4_europe{font-size:40px;}
                 </style>
 
             <g id="europe">
@@ -225,7 +235,7 @@
                 <path class="st0" d="M274.9,129.6c4.4-2.2,5.4,3,0.1,1.6v-1.1c1-0.5,2.1-0.8,3.2-0.9"/>
             </g>
             <circle class="st1" cx="215.7" cy="214.2" r="21"/>
-            <text transform="matrix(1 0 0 1 200.6859 225.1121)" class="st2 st3 st4">14</text>
+            <text transform="matrix(1 0 0 1 200.6859 225.1121)" class="st2 st3 st4_europe">14</text>
             </svg>
 
             <svg version="1.1" id="main_africa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -236,7 +246,7 @@
                     .st1{fill:#018FD3;stroke:#FFFFFF;stroke-miterlimit:10;}
                     .st2{fill:#FFFFFF;}
                     .st3{font-family:'PetangueDEMO';}
-                    .st4{font-size:45px;}
+                    .st4{font-size:50px;}
                 </style>
 
             <g id="africa">
@@ -266,7 +276,7 @@
                 .st1{fill:#018FD3;stroke:#FFFFFF;stroke-miterlimit:10;}
                 .st2{fill:#FFFFFF;}
                 .st3{font-family:'PetangueDEMO';}
-                .st4{font-size:45px;}
+                .st4{font-size:50px;}
             </style>
 
             <g id="asia">
@@ -363,7 +373,7 @@
                 .st1{fill:#018FD3;stroke:#FFFFFF;stroke-miterlimit:10;}
                 .st2{fill:#FFFFFF;}
                 .st3{font-family:'PetangueDEMO';}
-                .st4{font-size:45px;}
+                .st4{font-size:50px;}
             </style>
 
             <g id="sa">
@@ -389,7 +399,7 @@
                     .st1{fill:#018FD3;stroke:#FFFFFF;stroke-miterlimit:10;}
                     .st2{fill:#FFFFFF;}
                     .st3{font-family:'PetangueDEMO';}
-                    .st4{font-size:45px;}
+                    .st4{font-size:50px;}
                 </style>
 
             <g id="australia">
@@ -412,9 +422,9 @@
 
         </div>
 
- <!--Country List 2-->
+    <!--Country List 2-->
 
-        <div>
+        <div class="small-6 medium-2 columns">
                 <ul class="countryList" id="right_countryList">
                     <li id="morocco" class="sort_africa">Morocco</li>
                     <li id="nigeria" class="sort_africa">Nigeria</li>
@@ -434,13 +444,14 @@
                     <li id="uruguay" class="sort_sa">Uruguay</li>
                 </ul>
             </div>
+
     </section>
 
 
-
- <!--Chart-->
-
+<!--SECTION 2-->
     <section>
+
+    <!--Chart-->
 
         <div>
             <svg version="1.1" id="main_chart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
