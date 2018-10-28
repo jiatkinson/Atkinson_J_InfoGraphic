@@ -35,15 +35,15 @@
     <!--Stats-->
 
         <div class="small-12 medium-4 columns" id="stats">
-            <div>
+            <div class="redStats" id="matches_played">
                 <h2>Matches Played:</h2>
                 <h3>64</h3>
             </div>
-            <div>
+            <div class="redStats" id="goals_scored">
                  <h2>Goals Scored:</h2>
                  <h3>169</h3>
             </div>
-            <div>
+            <div id="attendance">
                  <h2>Attendance:</h2>
                  <h3>3,031,768</h3>
             </div>
@@ -54,10 +54,10 @@
         <div class="small-12 medium-3 columns" id="topFour">
             <div>
                 <ul>
-                    <li>1st - <img src="images/france.svg" alt="France Flag" class="topFourFlags"></li>
-                    <li>2nd - <img src="images/croatia.svg" alt="Croatia Flag" class="topFourFlags"></li>
-                    <li>3rd - <img src="images/belgium.svg" alt="Belgium Flag" class="topFourFlags"></li>
-                    <li>4th - <img src="images/england.svg" alt="England Flag" class="topFourFlags"></li>
+                    <li>1<sup>st</sup> - <img src="images/france.svg" alt="France Flag" class="topFourFlags"></li>
+                    <li>2<sup>nd</sup> - <img src="images/croatia.svg" alt="Croatia Flag" class="topFourFlags"></li>
+                    <li>3<sup>rd</sup> - <img src="images/belgium.svg" alt="Belgium Flag" class="topFourFlags"></li>
+                    <li>4<sup>th</sup> - <img src="images/england.svg" alt="England Flag" class="topFourFlags"></li>
                 </ul>
             </div>
         </div>
@@ -65,12 +65,12 @@
 
 
 <!--SECTION 2-->
-    <section>
+    <section id="section2">
 
     <!--Country List 1-->
 
-        <div class="small-6 medium-2 columns">
-            <ul class="countryList" id="left_countryList">
+        <div class="small-6 medium-offset-1 medium-2 columns countryList">
+            <ul id="left_countryList">
                 <li id="argentina" class="sort_sa">Argentina</li>
                 <li id="australia" class="sort_australia">Australia</li>
                 <li id="belgium" class="sort_europe">Belgium</li>
@@ -92,7 +92,7 @@
 
     <!--Continents-->
 
-        <div class="small-12 medium-offset-1 medium-10" id="continents">
+        <div class="small-12 medium-offset-2 medium-8 columns" id="continents">
 
             <svg version="1.1" id="main_na" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
@@ -424,8 +424,8 @@
 
     <!--Country List 2-->
 
-        <div class="small-6 medium-2 columns">
-                <ul class="countryList" id="right_countryList">
+        <div class="small-6 medium-offset-5 medium-3 end columns countryList">
+                <ul id="right_countryList">
                     <li id="morocco" class="sort_africa">Morocco</li>
                     <li id="nigeria" class="sort_africa">Nigeria</li>
                     <li id="panama" class="sort_na">Panama</li>
