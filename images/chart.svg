@@ -3,13 +3,12 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 800 400" style="enable-background:new 0 0 800 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st0{fill:#1F1F1F;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st1{fill:#E1000E;}
 	.st2{fill:#FFFFFF;}
 	.st3{font-family:'MyriadPro-Regular';}
 	.st4{font-size:12px;}
-	.st5{font-size:5px;}
-	.st6{font-size:15px;}
+	.st5{font-size:15px;}
 </style>
 <g id="Chart">
 	<rect x="70.3" y="17" class="st0" width="692.7" height="328"/>
@@ -62,18 +61,18 @@
 	<text transform="matrix(1 0 0 1 31.3164 93.3219)" class="st2 st3 st4">70,000</text>
 	<text transform="matrix(1 0 0 1 31.3164 56.8446)" class="st2 st3 st4">80,000</text>
 	<text transform="matrix(1 0 0 1 31.3164 21.178)" class="st2 st3 st4">90,000</text>
-	<text transform="matrix(1 0 0 1 80 355)" class="st2 st3 st5">Luzhniki Stadium </text>
-	<text transform="matrix(1 0 0 1 141.5 355)" class="st2 st3 st5">Otkritie Arena</text>
-	<text transform="matrix(1 0 0 1 193.1667 355)" class="st2 st3 st5">Krestovsky Stadium </text>
-	<text transform="matrix(1 0 0 1 248.6667 355)" class="st2 st3 st5">Fisht Olympic Stadium </text>
-	<text transform="matrix(1 0 0 1 315.6667 355)" class="st2 st3 st5">Rostov Arena </text>
-	<text transform="matrix(1 0 0 1 375.6667 355)" class="st2 st3 st5">Kazan Arena</text>
-	<text transform="matrix(1 0 0 1 428.3335 355)" class="st2 st3 st5">Central Stadium </text>
-	<text transform="matrix(1 0 0 1 481.8335 355)" class="st2 st3 st5">Kaliningrad Stadium </text>
-	<text transform="matrix(1 0 0 1 544.8335 355)" class="st2 st3 st5">Mordovia Arena</text>
-	<text transform="matrix(1 0 0 1 604.3335 355)" class="st2 st3 st5">Samara Arena</text>
-	<text transform="matrix(1 0 0 1 648.8335 355)" class="st2 st3 st5">Nizhny Novgorod Stadium</text>
-	<text transform="matrix(1 0 0 1 716.3328 355)" class="st2 st3 st5">Volgograd Arena</text>
-	<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 18.8594 226.9922)" class="st1 st3 st6">Capacity</text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 102.5 339.5)" class="st2 st3 st4">Luzhniki Stadium </text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 159.5 339.5)" class="st2 st3 st4">Otkritie Arena</text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 218.1665 339.5)" class="st2 st3 st4">Krestovsky Stadium </text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 276.6665 339.5)" class="st2 st3 st4">Fisht Olympic Stadium </text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 333.6665 339.5)" class="st2 st3 st4">Rostov Arena </text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 392 339.5)" class="st2 st3 st4">Kazan Arena</text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 448.834 339.5)" class="st2 st3 st4">Central Stadium </text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 506.834 339.5)" class="st2 st3 st4">Kaliningrad Stadium </text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 563.834 339.5)" class="st2 st3 st4">Mordovia Arena</text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 621.834 339.5)" class="st2 st3 st4">Samara Arena</text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 680.834 339.5)" class="st2 st3 st4">Nizhny Novgorod Stadium</text>
+	<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 737.833 339.5)" class="st2 st3 st4">Volgograd Arena</text>
+	<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 18.8594 226.9922)" class="st1 st3 st5">Capacity</text>
 </g>
 </svg>

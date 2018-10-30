@@ -37,16 +37,17 @@
         <div class="small-12 medium-4 columns" id="stats">
             <div class="redStats" id="matches_played">
                 <h2>Matches Played:</h2>
-                <h3>64</h3>
+                <h3 id="counter1">0</h3>
             </div>
             <div class="redStats" id="goals_scored">
                  <h2>Goals Scored:</h2>
-                 <h3>169</h3>
+                 <h3 id="counter2">169</h3>
             </div>
             <div id="attendance">
                  <h2>Attendance:</h2>
-                 <h3>3,031,768</h3>
+                 <h3 id="counter3">3,031,768</h3>
             </div>
+
         </div>
 
     <!--Top 4-->
@@ -449,26 +450,27 @@
 
 
 <!--SECTION 3-->
-    <section id="section3">
+    <section id="section3" class="section3">
 
     <!--Chart-->
 
         <div>
+            <h2>Venue Capacity</h2>
             <svg version="1.1" id="main_chart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 800 400" style="enable-background:new 0 0 800 400;" xml:space="preserve">
                 
                 <style type="text/css">
-                    .st0_chart{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+                    .st0_chart{fill:#1F1F1F;stroke:#FFFFFF;stroke-miterlimit:10;}
                     .st1_chart{fill:#E1000E;}
                     .st2_chart{fill:#FFFFFF;}
                     .st3_chart{font-family:'MyriadPro-Regular';}
                     .st4_chart{font-size:12px;}
-                    .st5_chart{font-size:5px;}
+                    .st5_chart{font-size:12px;}
                     .st6_chart{font-size:15px;}
                 </style>
 
            <g id="Chart">
-               <rect x="70.3" y="17" class="st0" width="692.7" height="328"/>
+               <rect x="70.3" y="17" class="st0_chart" width="692.7" height="328"/>
                <line class="st0_chart" x1="66.4" y1="308.5" x2="763" y2="308.5"/>
                <line class="st0_chart" x1="66.4" y1="272.5" x2="763" y2="272.5"/>
                <line class="st0_chart" x1="66.4" y1="235.5" x2="763" y2="235.5"/>
@@ -518,18 +520,18 @@
                <text transform="matrix(1 0 0 1 31.3164 93.3219)" class="st2_chart st3_chart st4_chart">70,000</text>
                <text transform="matrix(1 0 0 1 31.3164 56.8446)" class="st2_chart st3_chart st4_chart">80,000</text>
                <text transform="matrix(1 0 0 1 31.3164 21.178)" class="st2_chart st3_chart st4_chart">90,000</text>
-               <text transform="matrix(1 0 0 1 80 355)" class="st2_chart st3_chart st5_chart">Luzhniki Stadium </text>
-               <text transform="matrix(1 0 0 1 141.5 355)" class="st2_chart st3_chart st5_chart">Otkritie Arena</text>
-               <text transform="matrix(1 0 0 1 193.1667 355)" class="st2_chart st3_chart st5_chart">Krestovsky Stadium </text>
-               <text transform="matrix(1 0 0 1 248.6667 355)" class="st2_chart st3_chart st5_chart">Fisht Olympic Stadium </text>
-               <text transform="matrix(1 0 0 1 315.6667 355)" class="st2_chart st3_chart st5_chart">Rostov Arena </text>
-               <text transform="matrix(1 0 0 1 375.6667 355)" class="st2_chart st3_chart st5_chart">Kazan Arena</text>
-               <text transform="matrix(1 0 0 1 428.3335 355)" class="st2_chart st3_chart st5_chart">Central Stadium </text>
-               <text transform="matrix(1 0 0 1 481.8335 355)" class="st2_chart st3_chart st5_chart">Kaliningrad Stadium </text>
-               <text transform="matrix(1 0 0 1 544.8335 355)" class="st2_chart st3_chart st5_chart">Mordovia Arena</text>
-               <text transform="matrix(1 0 0 1 604.3335 355)" class="st2_chart st3_chart st5_chart">Samara Arena</text>
-               <text transform="matrix(1 0 0 1 648.8335 355)" class="st2_chart st3_chart st5_chart">Nizhny Novgorod Stadium</text>
-               <text transform="matrix(1 0 0 1 716.3328 355)" class="st2_chart st3_chart st5_chart">Volgograd Arena</text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 102.5 339.5)" class="st2_chart st3_chart st5_chart">Luzhniki Stadium </text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 159.5 339.5)" class="st2_chart st3_chart st5_chart">Otkritie Arena</text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 218.1665 339.5)" class="st2_chart st3_chart st5_chart">Krestovsky Stadium </text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 276.6665 339.5)" class="st2_chart st3_chart st5_chart">Fisht Olympic Stadium </text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 333.6665 339.5)" class="st2_chart st3_chart st5_chart">Rostov Arena </text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 392 339.5)" class="st2_chart st3_chart st5_chart">Kazan Arena</text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 448.834 339.5)" class="st2_chart st3_chart st5_chart">Central Stadium </text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 506.834 339.5)" class="st2_chart st3_chart st5_chart">Kaliningrad Stadium </text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 563.834 339.5)" class="st2_chart st3_chart st5_chart">Mordovia Arena</text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 621.834 339.5)" class="st2_chart st3_chart st5_chart">Samara Arena</text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 680.834 339.5)" class="st2_chart st3_chart st5_chart">Nizhny Novgorod Stadium</text>
+               <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 737.833 339.5)" class="st2_chart st3_chart st5_chart">Volgograd Arena</text>
                <text transform="matrix(6.123234e-17 -1 1 6.123234e-17 18.8594 226.9922)" class="st1_chart st3_chart_chart st6_chart">Capacity</text>
            </g>
            </svg>
@@ -537,6 +539,11 @@
 
     </section>
 
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"   integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4="  crossorigin="anonymous"></script>
+<script src="js/countUp.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
