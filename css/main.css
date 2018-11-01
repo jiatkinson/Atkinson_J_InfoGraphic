@@ -217,7 +217,31 @@ sup
 
 .js-section3-animate
 {
+    opacity: 1 !important;
+}
+
+
+#Bar_Lines {
+    opacity: 0;
+}
+
+#Chart:hover + #Bar_Lines {
+    animation: bar-up 2s ease-out;
+    transform-origin: 0 345px;
     opacity: 1;
+}
+
+.bar-wrap {
+    transform-origin: 0 0;
+}
+
+@keyframes bar-up {
+    0% {
+        transform:scaleY(0);
+    }
+    100% {
+        transform:scaleY(1);
+    }
 }
 
 @media screen and (min-width: 355px){
