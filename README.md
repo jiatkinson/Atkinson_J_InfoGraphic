@@ -5,7 +5,6 @@ A collaborative project between Electronic Image Production & Multimedia Authori
 ## Features
 
 * CSS & Javascript Animations
-* Bodymovin
 
 ## Getting Started
 
@@ -43,6 +42,9 @@ And you’re done!
 ## Authors
 
 * [**Jacob Atkinson**](https://github.com/jiatkinson)
+
+## Aknowledgements
+Helen Unger's help and encougagement was very appricated for the php aspect of this assignments.
 
 ## License
 
