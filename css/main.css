@@ -6,6 +6,8 @@ body
   background-color: #1f1f1f;
 }
 
+.red {color: #e1000e !important};
+
 p
 {
   color: #fff;
@@ -225,7 +227,7 @@ sup
     opacity: 0;
 }
 
-#Chart:hover + #Bar_Lines {
+#main_chart:hover > #Bar_Lines {
     animation: bar-up 2s ease-out;
     transform-origin: 0 345px;
     opacity: 1;

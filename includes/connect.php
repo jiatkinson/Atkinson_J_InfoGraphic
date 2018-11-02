@@ -1,43 +1,36 @@
 <?php
-// $user = "root";
-// $password = "root";
-// $host = "localhost";
-// $db = "db_infographic";
-// $conn = mysqli_connect($host, $user, $password, $db);
-// mysqli_set_charset($conn, 'utf8');
-// if (!$conn) {
-//     echo "connection didn't work...";
-//     exit;
-// }
+$user = "root";
+$password = "root";
+$host = "localhost";
+$db = "db_infographic";
+$conn = mysqli_connect($host, $user, $password, $db);
+mysqli_set_charset($conn, 'utf8');
+if (!$conn) {
+    echo "connection didn't work...";
+    exit;
+}
 
-//echo "connected!";
+// echo "connected!";
 
-// get all the car data
-// $myQuery = "SELECT * FROM mainmodel";
+if (isset($_GET["continentID"])) {// check for a parameter ?carModel=R58
+    $continent = $_GET["continentID"];
 
-// // make the query, get the result
-// $result = mysqli_query($conn, $myQuery);
+    //$myQuery = "SELECT * FROM tbl_country WHERE country_name = '$country'";
 
-// $rows = array();
+    $myQuery = "SELECT * FROM tbl_continents , tbl_continents_country, tbl_country
+                WHERE tbl_continents . continent_id = tbl_continents_country . continent_id
+                AND tbl_continents_country . country_id = tbl_country . country_id
+                AND tbl_continents . continent_id = '$continent'";
 
-// while($row = mysqli_fetch_assoc($result)) {
-//     $rows[] = $row;
-// }
+    $result = mysqli_query($conn, $myQuery);
+    $rows = array();
 
-// if (isset($_GET["countryName"])) {// check for a parameter ?carModel=R58
-//     $country = $_GET["countryName"];
+    while($row = mysqli_fetch_assoc($result)) {
+        $rows[] = $row;
+    }
+}
 
-//     $myQuery = "SELECT * FROM tbl_country WHERE country_name = '$country'";
+// send the entire result set as a json encoded array
+echo json_encode($rows);
 
-//     $result = mysqli_query($conn, $myQuery);
-//     $rows = array();
-
-//     while($row = mysqli_fetch_assoc($result)) {
-//         $rows[] = $row;
-//     }
-// }
-
-// // send the entire result set as a json encoded array
-// echo json_encode($rows);
-
-// ?>
+?>
