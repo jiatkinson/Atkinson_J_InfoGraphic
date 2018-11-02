@@ -1,4 +1,5 @@
 (() => {
+    
     var c = new CountUp("counter1",0,64);
 
     c.start();
@@ -23,6 +24,29 @@ var waypoint = new Waypoint({
     offset: 600
   });
 
-
-
  })();
+
+
+//  (() => {
+
+//   function fetchData() {
+//       fetch(`./includes/connect.php?countryName=${this.id}`)
+//       .then(res => res.json())
+//       .then(data => {
+//           console.log(data);
+//           parseCountryData(data[0]);
+//       })
+//       .catch(function(error) {
+//           console.error(error);
+//       });
+//   }
+
+//   function parseCountryData(country) {
+//       // destructure the database info and grab just what we need
+//       const { countryName } = country
+//       // take the database data and put it on the page
+//       document.querySelector(".countryName").textContent = countryName;
+//   };
+
+//   // fetchData();
+// })();
