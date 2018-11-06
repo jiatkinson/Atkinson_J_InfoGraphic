@@ -12,7 +12,7 @@ if (!$conn) {
 
 // echo "connected!";
 
-if (isset($_GET["continentID"])) {// check for a parameter ?carModel=R58
+if (isset($_GET["continentID"])) {
     $continent = $_GET["continentID"];
 
     //$myQuery = "SELECT * FROM tbl_country WHERE country_name = '$country'";
