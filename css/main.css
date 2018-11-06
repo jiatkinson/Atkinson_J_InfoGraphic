@@ -151,9 +151,57 @@ sup
 
 .topFourFlags
 {
-  max-width: 35%;
-  margin-top: 10px;
+    max-width: 35%;
+    margin-top: 10px;
 }
+
+#first:hover
+{
+    color: gold;
+}
+
+#second:hover
+{
+    color: silver;
+}
+
+#third:hover
+{
+    color: #cd7f32;
+}
+
+#fourth:hover
+{
+    color: #696969;
+}
+
+#france:hover {
+    animation: wiggle 1s ease;
+    animation-iteration-count: 1;
+  }
+
+#croatia:hover {
+    animation: wiggle 1s ease;
+    animation-iteration-count: 1;
+  }
+
+#belgium:hover {
+    animation: wiggle 1s ease;
+    animation-iteration-count: 1;
+  }
+
+#england:hover {
+    animation: wiggle 1s ease;
+    animation-iteration-count: 1;
+  }
+
+@keyframes wiggle {
+    20%  { transform: translateX(4px);  }
+    40%  { transform: translateX(-4px); }
+    60%  { transform: translateX(2px);  }
+    80%  { transform: translateX(-1px); }
+    100% { transform: translateX(0);    }
+  }
 
 
 /*SECTION 2*/
