@@ -1,4 +1,4 @@
-# Atkinson_J_InfoGraphic
+# Atkinson_Jacob_HW3
 
 A collaborative project between Electronic Image Production & Multimedia Authoring 2. Using SVG's to create an interactive infographic.
 
@@ -23,11 +23,11 @@ $ git init
 
 # Clone this repository
 
-$ git clone https://github.com/jiatkinson/Atkinson_J_InfoGraphic.git
+$ git clone https://github.com/jiatkinson/Atkinson_Jacob_HW3.git
 
 # Go into the repository
 
-$ cd Atkinson_J_InfoGraphic
+$ cd Atkinson_Jacob_HW3
 
 ```
 
@@ -36,7 +36,6 @@ And you’re done!
 ## Built With
 
 * [Foundation 6](https://foundation.zurb.com/)
-* [Sass](https://sass-lang.com/)
 * [Javascript](https://www.javascript.com/)
 
 ## Authors
